@@ -13,7 +13,10 @@
 </head>
 
 <body>
-  {{ $slot }}
+  <div>
+    <x-navbar></x-navbar>
+    {{ $slot }}
+  </div>
   @livewireScripts
 </body>
 
